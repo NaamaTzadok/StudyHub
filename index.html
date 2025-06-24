@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyHub</title>
+    <link rel="stylesheet" href="indexStyle.css"> <!-- קישור לקובץ CSS חיצוני -->
+
+</head>
+<body>
+    <header>
+        <h1>ברוכה הבאה, <span id="username"></span>!</h1> <!-- Greeting with the user's name -->
+    </header>
+    
+    <main>
+        <!-- Quick view of open and upcoming tasks -->
+        <section id="tasks-overview">
+            <h2>משימות קרובות</h2>
+            <ul id="upcoming-tasks">
+                <!-- Will be filled dynamically with JS -->
+            </ul>
+        </section>
+    
+        <!-- Progress section -->
+        <section id="progress-section">
+            <h2>התקדמות חודשית</h2>
+            <p>הושלמו <span id="progress-percentage">0%</span> מהמשימות החודש</p>
+        </section>
+    
+        <!-- Active courses list -->
+        <section id="courses-overview">
+            <h2>קורסים פעילים</h2>
+            <ul id="active-courses">
+                <!-- Will be filled dynamically with JS -->
+            </ul>
+        </section>
+    
+        <!-- Quick links to other pages -->
+        <nav id="quick-links">
+            <h2>ניווט מהיר</h2>
+            <ul>
+                <li><a href="tasks.html">ניהול משימות</a></li>
+                <li><a href="courses.html">ניהול קורסים</a></li>
+                <li><a href="calendar.html">יומן</a></li>
+            </ul>
+        </nav>
+      </main>
+</body>
+</html>

@@ -1,0 +1,45 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Sets the main font */
+    background-color: #f0f4f8; /* Light background color */
+    display: flex; /* Uses flexbox to center the content */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  /* Container for the login form */
+  .login-container {
+    background-color: white; /* White background */
+    padding: 30px; /* Space inside the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Light shadow for elevation */
+    width: 300px; /* Fixed width for the box */
+    text-align: center; /* Centered text inside */
+  }
+  
+  /* Styling for input fields */
+  input {
+    width: 100%; /* Full width of container */
+    padding: 8px; /* Padding inside the input */
+    margin: 10px 0; /* Space above and below input */
+    box-sizing: border-box; /* Includes padding in total width */
+  }
+  
+  /* Styling for the submit button */
+  button {
+    padding: 10px; /* Padding inside button */
+    width: 100%; /* Full width */
+    background-color: #0077cc; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Removes default border */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red; /* Red text for error */
+    margin-top: 10px; /* Space above error message */
+  }
+  

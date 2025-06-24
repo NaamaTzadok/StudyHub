@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="loginStyle.css"> <!-- קישור לקובץ CSS חיצוני -->
+    <!--<script> src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.6/underscore-umd-min.js"></script> -->
+</head>
+<body onload="loadPage()">
+    <div class="login-container"> <!-- עוטף את טופס ההתחברות -->
+        <h1>StudyHub</h1>
+        <h2>Login</h2>
+        <form id="loginForm"> <!-- טופס ההתחברות -->
+          <label for="username">uzer name:</label>
+          <input type="text" id="username" required> <!-- שדה טקסט לשם משתמש -->
+    
+          <label for="password">Password:</label>
+          <input type="password" id="password" required> <!-- שדה סיסמה -->
+    
+          <button type="submit">login</button> <!-- כפתור התחברות -->
+        </form>
+        <p id="error" class="error-message"></p> <!-- תצוגת הודעת שגיאה אם יש -->
+      </div>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>יומן משימות</h1>
+        <li><a href="index.html">בית</a></li>
+    </header>
+
+    <main>
+        <!-- כפתורי ניווט בין חודשים -->
+        <section id="calendar-controls">
+            <button id="prev-month">חודש קודם</button>
+            <span id="current-month-year">מאי 2025</span> <!-- מתעדכן אוטומטית -->
+            <button id="next-month">חודש הבא</button>
+        </section>
+
+        <!-- תצוגת היומן -->
+        <section id="calendar-view">
+            <!-- כאן תיבנה טבלת היומן עם תאריכים ומשימות -->
+            <div id="calendar-grid">
+                <!-- יתמלא ב-JS לפי תאריכים -->
+            </div>
+        </section>
+
+        <!-- מודאל או אזור להצגת פרטי משימה בעת לחיצה -->
+        <section id="task-details" style="display: none;">
+            <h2>פרטי משימה</h2>
+            <p><strong>שם:</strong> <span id="detail-title"></span></p>
+            <p><strong>קורס:</strong> <span id="detail-course"></span></p>
+            <p><strong>סוג:</strong> <span id="detail-type"></span></p>
+            <p><strong>דדליין:</strong> <span id="detail-deadline"></span></p>
+            <p><strong>סטטוס:</strong> <span id="detail-status"></span></p>
+            <button id="close-details">סגור</button>
+        </section>
+    </main>
+</body>
+
+</html>
