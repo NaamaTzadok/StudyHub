@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudyHub</title>
-    <link rel="stylesheet" href="indexStyle.css"> <!-- link to CSS-->
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="/css/style.css"> <!-- link to CSS-->
+    <link rel="stylesheet" href="/css/index.css"> <!-- link to CSS-->
 
 </head>
 <body>
     <header>
-        <h1>ברוכה הבאה, <span id="username"></span>!</h1> <!-- Greeting with the user's name -->
+        <h1>ברוכה הבאה, <%= username %>!</h1> <!-- Greeting with the user's name -->
     </header>
     
     <main>

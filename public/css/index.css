@@ -1,0 +1,33 @@
+#tasks-overview ul,
+#courses-overview ul {
+  list-style: none;
+  padding: 0;
+}
+
+#tasks-overview li,
+#courses-overview li {
+  background: #EAF4FF;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+#progress-section {
+  text-align: center;
+  font-size: 18px;
+  color: #F5A623;
+}
+
+#quick-links ul {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  list-style: none;
+}
+
+#quick-links a {
+  background: #BD10E0;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+}

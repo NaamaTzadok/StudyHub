@@ -1,0 +1,28 @@
+{
+  "name": "studyhub",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaamaTzadok/StudyHub.git"
+  },
+  "author": "Naama Tzadok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaamaTzadok/StudyHub/issues"
+  },
+  "homepage": "https://github.com/NaamaTzadok/StudyHub#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
